@@ -1,0 +1,4 @@
+1.通过npm install pug 安装 jade包，在jade文件夹下出现node_modules
+2.安装npm install pug-cli -g安装pug脚手架
+3.像node，pug，fis，gulp这些软件包通过npm来安装都是放在c盘地下，具体的位置是C:\Users\Administrator\AppData
+4.在jade目录下新建一个名test.pug，在命令行输入pug test.pug，同级目录下会出现test.html，命令行会出现rendered test.html，也可以在命令行直接输入pug -P -w test.pug来监听文件。

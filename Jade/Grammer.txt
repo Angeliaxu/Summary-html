@@ -1,0 +1,10 @@
+1 p标签的多行文本要在p标签的后面添加一个. 不然文本内容会被加上<>识别成一对标签。
+    p(style="color:red;").
+      1e2uEDxSKVZSKhlIoQR3Ea9TdPa91xvP7Ye
+      1e2uEDxSKVZSKhlIoQR3Ea9TdPa91xvP7Ye
+      1e2uEDxSKVZSKhlIoQR3Ea9TdPa91xvP7Ye
+2 类名和id名可以直接写在标签后面，有多个class名可以连接写多个
+3 标签后面+属性
+    p（class="p" style=""）
+4 标签后面空一格 写文本内容
+5 直接写一个class类名，默认的标签类型是div
