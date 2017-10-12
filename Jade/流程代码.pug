@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title
+  body
+    - var n={name:'jade',age:18}
+    - for(var k in n)
+      p #{n[k]}
+    each  value,key in n
+      p #{key}:#{value}
