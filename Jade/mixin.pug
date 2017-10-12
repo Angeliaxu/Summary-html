@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title
+  body
+  mixin article(title)
+    .article
+      .article-wrapper
+        h1 #{title}
+        if block
+          block
+        else
+          p no content
+  +article('hello angelia')
+    p 啦啦啦啦
