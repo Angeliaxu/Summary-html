@@ -1,0 +1,9 @@
+extends 模板继承.pug
+block scripts
+  script(src='1')
+  script(src='2')
+block content
+  h1= title
+  - var pets=['cat','dog']
+  each petname in pets
+    include pet.pug
